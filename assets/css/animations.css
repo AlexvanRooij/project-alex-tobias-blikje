@@ -1,0 +1,133 @@
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+} 
+
+@-moz-keyframes gethigh { 
+    50% {
+        filter: hue-rotate(365deg);
+    }
+    100% { 
+        filter: hue-rotate(0);
+    } 
+}
+@-webkit-keyframes gethigh { 
+    50% {
+        filter: hue-rotate(365deg);
+    }
+    100% { 
+        filter: hue-rotate(0);
+    } 
+}
+@keyframes gethigh { 
+    50% {
+        filter: hue-rotate(365deg);
+    }
+    100% { 
+        filter: hue-rotate(0);
+    } 
+}
+
+
+
+@-moz-keyframes slowMove { 
+    50% {
+        background-position-x:-500px;
+    }
+    100% { 
+        background-position-x:-200px;
+    } 
+}
+@-webkit-keyframes slowMove { 
+    50% {
+        background-position-x:-500px;
+    }
+    100% { 
+        background-position-x:-200px;
+    } 
+}
+@keyframes slowMove { 
+    50% {
+        background-position-x:-500px;
+    }
+    100% { 
+        background-position-x:-200px;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+@-moz-keyframes canTilt { 
+    50% {
+        scale: 1.1;
+        rotate: 5.3deg;
+    }
+    100% { 
+        scale: 1;
+        rotate: -5.3deg;
+    } 
+}
+@-webkit-keyframes canTilt { 
+    50% {
+        scale: 1.1;
+        rotate: 5.3deg;
+    }
+    100% { 
+        scale: 1;
+        rotate: -5.3deg;
+    } 
+}
+@keyframes canTilt { 
+    50% {
+        scale: 1.1;
+        rotate: 5.3deg;
+    }
+    100% { 
+        scale: 1;
+        rotate: -5.3deg;
+    } 
+}
+
+
+
+
+@-moz-keyframes scalein { 
+    50% {
+        rotate: 5deg;
+    }
+    100% { 
+        rotate: 0deg;
+    } 
+}
+@-webkit-keyframes scalein { 
+    50% {
+        rotate: 5deg;
+    }
+    100% { 
+        rotate: 0deg;
+    } 
+}
+@keyframes scalein { 
+    50% {
+        rotate: 5deg;
+    }
+    100% { 
+        rotate: 0deg;
+    } 
+}
+

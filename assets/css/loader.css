@@ -1,0 +1,17 @@
+#loader {
+    z-index: 10010;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2E2E2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#loader img {
+    animation: spin 1s linear infinite;
+    width: 50px;
+}

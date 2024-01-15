@@ -1,0 +1,31 @@
+.noti {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    z-index: 200;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    background-color: #0E9860;
+    width: calc(100% - 40px);
+    height: 45px;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 10px -10px;
+}
+
+@media only screen and (min-width: 1500px) {
+    .noti {
+        max-width: 400px;
+        left: unset;
+        right: 20px;
+    }
+
+}

@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Syuku&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/cart.css"> 
+    <link rel="stylesheet" href="assets/css/hovers.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/noti.css">
+    <script src="assets/js/jquery.js" defer></script>
+    <script src="assets/js/session.js" defer></script>
+
+
+  </head>
+<body>
+    <div id="loader">
+      <img src="assets/img/pill.png" alt="loader">
+  </div>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="100vw" height="100vh" preserveAspectRatio="xMidYMid" >
+        <defs>
+          <pattern id="pid-0.23305408494728264" x="0" y="0" width="76.80000000000001" height="76.80000000000001" patternUnits="userSpaceOnUse">
+            <g transform="scale(0.30000000000000004)"><defs><g id="stripe-0.7990655825411488">
+          <path d="M256 -128 L384 -128 L-128 384 L-128 256 Z" fill="#373434"></path>
+          <path d="M384 0 L384 128 L128 384 L0 384 Z" fill="#373434"></path>
+        </g></defs>
+        
+        <g>
+          <use xlink:href="#stripe-0.7990655825411488" x="-256" y="0"></use>
+          <use xlink:href="#stripe-0.7990655825411488" x="0" y="0"></use>
+          <animateTransform attributeName="transform" type="translate" keyTimes="0;1" repeatCount="indefinite" dur="0.5s" values="0 0; 256 0"></animateTransform>
+        </g></g>
+          </pattern>
+        </defs>
+        <rect x="0" y="0" width="100vw" height="100vh" fill="url(#pid-0.23305408494728264)"></rect>
+        </svg>
+
+    <div id="container">
+        <div id="options">
+            <a href="/" class="arrow-back">
+                <img src="assets/img/arrow.gif" alt="arrow-back">
+            </a>
+            <a href="/checkout.html" class="arrow-forward">
+                <img src="assets/img/arrow.gif" alt="arrow-forward">
+            </a>
+        </div>
+        <img id="shopping-cart" src="assets/img/shopping-cart.png" alt="shopping-cart">
+        <div id="cart-items">
+            
+        </div>
+
+
+
+
+    </div>  
+    <script src="assets/js/load.js"></script>
+</body>
+</html>

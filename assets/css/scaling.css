@@ -1,0 +1,133 @@
+@media only screen and (min-width: 390px) {
+    .main-cans {
+        width: auto;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #nav-cans {
+        top: -250%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    footer {
+        -webkit-animation:slowMoveExtra 20s linear infinite;
+        -moz-animation:slowMoveExtra 20s linear infinite;
+        animation:slowMoveExtra 20s  linear infinite;
+    }
+    #nav-cans {
+        top: -300%;
+    }
+    @-moz-keyframes slowMoveExtra { 
+        50% {
+            background-position-x:-100px;
+        }
+        100% { 
+            background-position-x:-200px;
+        } 
+    }
+    @-webkit-keyframes slowMoveExtra { 
+        50% {
+            background-position-x:-100px;
+        }
+        100% { 
+            background-position-x:-200px;
+        } 
+    }
+    @keyframes slowMoveExtra { 
+        50% {
+            background-position-x:-100px;
+        }
+        100% { 
+            background-position-x:-200px;
+        } 
+    }
+
+
+}
+@media only screen and (min-width: 530px) {
+    #nav-cans {
+        top: -350%;
+    }
+}
+@media only screen and (min-width: 580px) {
+    #nav-cans {
+        top: -400%;
+    }
+}
+@media only screen and (min-width: 630px) {
+    #nav-cans {
+        top: -450%;
+    }
+}
+@media only screen and (min-width: 700px) {
+    #nav-cans {
+        top: -500%;
+    }
+    #item-select {
+        max-width: 700px;
+    }
+
+
+
+}
+@media only screen and (min-width: 750px) {
+}
+@media only screen and (min-width: 800px) {
+    .extra.one,
+    .extra.two {
+        display: unset;
+    }
+    #nav-cans {
+        top: -550%;
+    }
+    footer {
+        position: relative;
+        -webkit-animation:none;
+        -moz-animation:none;
+        animation:none;
+        background-position-x: 0;
+    }
+    #nav-cans {
+        top: -300%;
+    }
+    #hands {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        max-width: 800px;
+    }
+}
+@media only screen and (min-width: 850px) {
+    #nav-cans {
+        top: -600%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    #scary-head #scare {
+        width: 400px;
+    }
+    #nav-cans {
+        top: -650%;
+    }
+}
+@media only screen and (min-width: 950px) {
+    footer {
+        -webkit-animation:none;
+        -moz-animation:none;
+        animation:none;
+        background-position-x: 0;
+        background-size: 100vw;
+    }
+    .extra.three {
+        display: unset;
+    }
+    #nav-cans {
+        
+        transform: translate(-50%);
+        left: 50%;
+        top: -700%;
+        max-width: 950px;
+    }
+}

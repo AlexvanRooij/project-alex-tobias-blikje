@@ -1,0 +1,56 @@
+img[src="assets/img/arrow.gif"]:hover,
+img[src="assets/img/oog.png"]:hover,
+.item-buy-desktop:hover {
+    cursor: pointer;
+
+}
+
+.item-buy-desktop,
+.item-buy {
+    transition: 200ms
+}
+.item-buy:hover,
+.item-buy-desktop:hover
+{
+    transform: 
+                scale(1.1)
+                                        
+                                            
+}
+.item-buy:active,
+.item-buy-desktop:active
+{
+    transform: rotate(5deg)
+                scale(1.1)
+                                        
+                                            
+}
+
+
+img[src="assets/img/arrow.gif"]
+{
+    transition: 1s
+}
+img[src="assets/img/oog.png"]
+{
+    transition: 200ms
+}
+img[src="assets/img/arrow.gif"]:hover,
+img[src="assets/img/oog.png"]:hover
+{
+    transform: rotate(360deg)
+                scale(1.2)
+                                        
+                                            
+}
+.menu-list a
+{
+    transition: 200ms
+}
+.menu-list a:hover {
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 1px;
+   transform: 
+                scale(1.1)
+}
+

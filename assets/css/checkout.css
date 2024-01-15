@@ -1,0 +1,151 @@
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url('../img/scary-background.jpg');
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+body::before {
+    content: '';
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.758);
+}
+* {
+    font-family: horror;
+    font-weight: 100;
+}
+
+h1 {
+    z-index: 100;
+    color: red;
+    font-size: 100px;
+}
+label {
+    
+    color: white;
+    font-size: 30px;
+}
+#container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+form {
+    gap: 10px;
+    max-width: 300px;
+    width: 100%;
+}
+form, label {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 10px;
+    z-index: 20;
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    height: 30px;
+    background-color: rgb(255,0,0,30%);
+    border: none;
+    border: 1px solid red;
+}
+label {
+    position: relative;
+}
+
+label:after {
+    background-color: rgb(255,0,0,30%);;
+    position: absolute;
+    bottom: -4px;
+    left: 4px;
+    border: 1px solid red;
+    width: calc(100% - 8px);
+    height: 38px;
+    content: '';
+    box-sizing: border-box;
+}
+
+.credit-card {
+    gap: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.credit-card-info {
+    width: 48%;
+}
+.credit-card-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input::placeholder {
+    color: rgb(255, 180, 180);
+}
+
+
+input[type=submit] {
+    margin-top: 30px;
+    position: relative;
+    height: 50px;
+}
+
+.finish:after {
+    background-color: rgb(255,0,0,30%);
+    position: absolute;
+    bottom: -4px;
+    left: 4px;
+    border: 1px solid red;
+    width: calc(100% - 8px);
+    height: 58px;
+    content: '';
+    box-sizing: border-box;
+}
+
+#scary-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+}
+#scary-arrow img {
+    width: 100%;
+}
+
+
+#scary-arrow img
+{
+    transition: 200ms
+}
+#scary-arrow img:hover {
+   transform: 
+   
+                scale(1.1)
+}
+
+
+@media only screen and (min-width: 400px) {
+    #scary-arrow {
+        width: 150px;
+    }
+}

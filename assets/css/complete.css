@@ -1,0 +1,67 @@
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #232323;
+    position: relative;
+    overflow: hidden;
+
+}
+
+svg {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    z-index: 200;
+    width: 400px;
+    height: auto;
+}
+h1 {
+    z-index: 100;
+    font-weight: 300;
+    font-size: 80px;
+    font-family: mainFont;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    background: linear-gradient(to right, #A923BF, #FFE500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p {
+
+    color: rgb(255, 255, 255);
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#confirm {
+    padding-top: 20px;
+    width: 80px;
+
+
+    -webkit-animation:scalein 1s linear infinite;
+    -moz-animation:scalein 1s linear infinite;
+    animation:scalein 1s linear infinite;
+}
+
+#confirm {
+    transition: 200ms;
+}
+#confirm:hover {
+    cursor: pointer;
+    transform: 
+                
+                scale(1.1);
+                opacity: 50%;
+}
+

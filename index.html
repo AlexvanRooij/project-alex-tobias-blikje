@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drugslab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/scaling.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
+    <link rel="stylesheet" href="assets/css/hovers.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/noti.css">
+    <script src="assets/js/jquery.js" defer></script>
+    <script src="assets/js/session.js" defer></script>
+    <script src="assets/js/cans.js" defer></script>
+    <script src="assets/js/load.js" defer></script>
+    <script src="assets/js/noti.js" defer></script>
+    <style>
+        body {
+            position: relative;
+        }
+        #loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader">
+        <img src="assets/img/pill.png" alt="loader">
+    </div>
+    <div id="menu" class="hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100vw" height="100vh" preserveAspectRatio="xMidYMid">
+            <defs>
+              <pattern id="pid-0.8573284134466832" x="0" y="0" width="158.72" height="158.72" patternUnits="userSpaceOnUse">
+                <g transform="scale(0.62)"><defs><g id="pat-0.8403574070413637"><polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#373434" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" -3,-2 16.5,15.5 31.5,0.5 63.5,32.5 48.5,47.5 31.5,32.5 -0.5,64.5 16.5,79.5 31.5,64.5 47.5,79.5 95.5,32.5 80.5,15.5 95.5,0.5 127.5,32.5 48.5,111.5 31.5,96.5 -0.5,128.5 16.5,143.5 31.5,127.5 63.5,160.5 80.5,143.5 63.5,128.5 159.5,32.5 144.5,15.5 159.5,0.5 175.5,16.5 192,0 208,16 224,0 256,32 240,48 224,32 207.501,48.501 223.5,64.5 207.5,80.5 176.5,47.5 144.5,80.5 159.5,96.5 175.5,80.5 191.5,96.5 159.5,128.5 127.5,96.5 95.5,127.5 111.5,143.5 127.5,127.5 175.5,176.5 159.5,192.5 127.5,160.5 111.5,176.5 95.5,160.5 63.5,192.5 31.5,160.5 16.5,175.5 31.999,191.483 0,224 16,240 32,225 64,256 80,240 64,224 79.667,208.333 95.5,192.5 111.5,207.5 95.5,224.5 111.5,239.5 127.5,256.5 143.5,240.5 127.5,224.5 143.5,208.5 175.5,240.5 191.5,224.5 175.5,208.5 207.5,176.5 224,160 208,144 191.998,160.998 175.5,144.5 207.5,112.5 240,80 256,96 223.5,128.5 256,160 239.5,176.5 256,192 240,208 224,192 207.5,208.5 223.5,224.5 207.5,240.5 223.5,256.5 240,240 259,259" stroke-dasharray="85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375 85.63194580078124 28.54398193359375">
+              <animate attributeName="stroke-dashoffset" keyTimes="0;1" values="0;114.175927734375" repeatCount="indefinite" dur="2.5s"></animate>
+            </polyline></g></defs><use xlink:href="#pat-0.8403574070413637" x="0" y="0"></use><use xlink:href="#pat-0.8403574070413637" x="-256" y="0"></use><use xlink:href="#pat-0.8403574070413637" x="256" y="0"></use><use xlink:href="#pat-0.8403574070413637" x="0" y="-256"></use><use xlink:href="#pat-0.8403574070413637" x="0" y="256"></use></g>
+              </pattern>
+            </defs>
+            <rect x="0" y="0" width="100vw" height="100vh" fill="url(#pid-0.8573284134466832)"></rect>
+            </svg>
+        <div class="menu-list">
+            <a href="/">home</a>
+            <a  href="/cart.html">cart</a>
+            <a  href="/test.html">test</a>
+        </div>
+    </div>
+    <nav>
+        <div id="nav-cans">
+            <div class="nav-can">
+                <img src="assets/img/cans/meth.png" alt="meth can">
+            </div>
+            <div class="nav-can">
+                <img src="assets/img/cans/cannabis.png" alt="cannabis can">
+            </div>
+            <div class="nav-can">
+                <img src="assets/img/cans/coke.png" alt="coke can">
+            </div>
+        </div>
+        <a id="hamburger">
+            <img src="assets/img/oog.png" alt="hamburger menu">
+        </a>
+    </nav>
+
+
+    <main>
+       
+        <div class="fullWidth">
+            <div id="cans-top">
+                <img src="assets/img/cans/cans.png" alt="cans">
+            </div>
+            <div id="cans-bottom">
+                <img src="assets/img/cans/cans.png" alt="cans">
+            </div>
+        </div>
+
+
+        <div class="main-titles">
+            <p id="main-title-secondary">DRUGSLAB</p>
+            <h1>DRUGSLAB</h1>
+            <p>the best energy since 1940</p>
+            <img src="assets/img/mshr.png" alt="mushroom">
+            <img id="rainbow" src="assets/img/rainbow.png" alt="rainbow">
+        </div>
+        <div class="main-cans">
+            <div class="main-can">
+                <img src="assets/img/cans/lsd.png" alt="meth can">
+            </div>
+            <div class="main-can">
+                <img src="assets/img/cans/luc.png" alt="cannabis can">
+            </div>
+            <div class="main-can">
+                <img src="assets/img/cans/sroom.png" alt="coke can">
+            </div>
+
+            <div class="main-can extra one">
+                <img src="assets/img/cans/cannabis.png" alt="coke can">
+            </div>
+            <div class="main-can extra two">
+                <img src="assets/img/cans/meth.png" alt="coke can">
+            </div>
+            <div class="main-can extra three">
+                <img src="assets/img/cans/coke.png" alt="coke can">
+            </div>
+        </div>
+        <img id="red-arrow" src="assets/img/red-arrow.png" alt="red-dotted-arrow">
+        <div id="item-select">
+            <div class="item-display"> 
+                <div class="item-prev-desktop">
+                    <img src="assets/img/arrow.gif" alt="arrow PREV">
+                </div>
+                <img class="trippy-wheel" src="assets/img/trippy-color-wheel.png" alt="trippy-wheel">
+                <img class="item-display-can" src="assets/img/cans/cannabis.png" alt="can">
+            </div>
+            <div class="item-display-text">
+                <p class="display-name">hash</p>
+                <p class="display-description">Delicious energy drink that may cause death. The high value of hash will ensure it's your last day. Please don't drink more than 1 can, as disposing of a body is not the most fun activity.</p> 
+                    <a class="item-buy-desktop">
+                        <img src="assets/img/BUY.png" alt="buy icon">
+                    </a>
+            </div>
+            <div id="item-select-input">
+                <div class="item-next" current-can="0">
+                    <img src="assets/img/arrow.gif" alt="arrow NEXT">
+                </div>
+                <a class="item-buy">
+                    <img src="assets/img/BUY.png" alt="buy icon">
+                </a>
+                <div class="item-prev">
+                    <img src="assets/img/arrow.gif" alt="arrow PREV">
+                </div>
+            </div>
+        </div>
+        <div id="scary-head">
+            <img id="scare" src="assets/img/scary-ass-head.png" alt="scary head">
+            <!-- <img id="waterdrop" src="assets/img/waterdrop.png" alt="waterdrop"> -->
+        </div>
+    </main>
+
+
+    <footer>
+        <img id="hands" src="assets/img/hands.png" alt="hands">
+    </footer>
+    <script src="assets/js/load.js"></script>
+</body>
+</html>
